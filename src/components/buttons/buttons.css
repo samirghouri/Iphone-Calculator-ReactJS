@@ -1,0 +1,30 @@
+.Buttons {
+  height: 55px;
+  width: 55px;
+  background: #333;
+  border-radius: 50%;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: filter 0.5s;
+}
+
+.zero {
+  width: 120px;
+  border-radius: 35px;
+  justify-content: flex-start;
+  padding-left: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.function {
+  color: black;
+  background: #a5a5a5;
+}
+
+.operator {
+  background: #f1a33c;
+}
