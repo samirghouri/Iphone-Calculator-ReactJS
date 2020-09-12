@@ -1,11 +1,28 @@
 import React, { useState } from "react";
 import Buttons from "../buttons";
 import "./app.css";
+import image from "../../status.png";
 
 const App = () => {
   const [value, setValue] = useState("0");
   const [memory, setMemory] = useState("");
   const [operator, setOperator] = useState("");
+  const [date, setDate] = useState("");
+  // setting the date from the system
+  setTimeout(() => {
+    const addZero = (i) => {
+      if (i < 10) {
+        i = "0" + i;
+      }
+      return i;
+    };
+    const time = new Date();
+    let hours = addZero(time.getHours());
+    let minutes = addZero(time.getMinutes());
+    setDate(hours + ":" + minutes);
+  }, 1000);
+
+  // handling the clicks of the button
   const handleButtonClick = (content) => () => {
     const num = parseFloat(value);
     if (content === "AC") {
@@ -82,7 +99,12 @@ const App = () => {
   };
   return (
     <div className="app">
-      <div className="top">09:23</div>
+      <div className="top">
+        {date}
+        <div>
+          <img src={image} alt="Status" />
+        </div>
+      </div>
       <div className="display">{value}</div>
       <div className="buttons">
         <Buttons
