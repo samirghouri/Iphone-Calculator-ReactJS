@@ -16,7 +16,7 @@ Final View:
   ![alt text](https://github.com/samirghouri/Iphone-Calculator/blob/master/imageIphone.png?raw=true)
 
    
-Demo : https://samirghouri.github.io/Iphone-Calculator/    
+Demo : https://samirghouri.github.io/Iphone-Calculator-ReactJS/
     
     
 
