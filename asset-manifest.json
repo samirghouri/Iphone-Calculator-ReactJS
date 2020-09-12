@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Iphone-Calculator-ReactJS/static/css/main.015843c7.chunk.css",
+    "main.js": "/Iphone-Calculator-ReactJS/static/js/main.9f1ae0e8.chunk.js",
+    "main.js.map": "/Iphone-Calculator-ReactJS/static/js/main.9f1ae0e8.chunk.js.map",
+    "runtime-main.js": "/Iphone-Calculator-ReactJS/static/js/runtime-main.0cdc885e.js",
+    "runtime-main.js.map": "/Iphone-Calculator-ReactJS/static/js/runtime-main.0cdc885e.js.map",
+    "static/js/2.33de511c.chunk.js": "/Iphone-Calculator-ReactJS/static/js/2.33de511c.chunk.js",
+    "static/js/2.33de511c.chunk.js.map": "/Iphone-Calculator-ReactJS/static/js/2.33de511c.chunk.js.map",
+    "index.html": "/Iphone-Calculator-ReactJS/index.html",
+    "precache-manifest.1840e84e9bc1a9d7796242c3ffbb2d83.js": "/Iphone-Calculator-ReactJS/precache-manifest.1840e84e9bc1a9d7796242c3ffbb2d83.js",
+    "service-worker.js": "/Iphone-Calculator-ReactJS/service-worker.js",
+    "static/css/main.015843c7.chunk.css.map": "/Iphone-Calculator-ReactJS/static/css/main.015843c7.chunk.css.map",
+    "static/js/2.33de511c.chunk.js.LICENSE.txt": "/Iphone-Calculator-ReactJS/static/js/2.33de511c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cdc885e.js",
+    "static/js/2.33de511c.chunk.js",
+    "static/css/main.015843c7.chunk.css",
+    "static/js/main.9f1ae0e8.chunk.js"
+  ]
+}
